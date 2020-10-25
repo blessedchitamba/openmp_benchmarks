@@ -1,0 +1,221 @@
+Running OpenMP benchmark version 3.0
+	4 thread(s)
+	20 outer repetitions
+	1000.00 test time (microseconds)
+	1165 delay length (iterations) 
+	15.000000 delay time (microseconds)
+
+--------------------------------------------------------
+Computing reference time time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                451.445589   295.888260   1499.216445    329.198266      1
+
+reference time time     = 451.445589 microseconds +/- 645.228602
+
+--------------------------------------------------------
+Computing STATIC time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                3165.552514   959.282741   5500.349961    1301.446002      0
+
+STATIC time     = 3165.552514 microseconds +/- 2550.834165
+STATIC overhead = 2714.106925 microseconds +/- 3196.062767
+
+--------------------------------------------------------
+Computing STATIC 1 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                991.198029   292.583369   2946.233377    770.888098      0
+
+STATIC 1 time     = 991.198029 microseconds +/- 1510.940673
+STATIC 1 overhead = 539.752441 microseconds +/- 2156.169275
+
+--------------------------------------------------------
+Computing STATIC 2 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1346.143745   325.381942   4824.890010    1397.142217      0
+
+STATIC 2 time     = 1346.143745 microseconds +/- 2738.398746
+STATIC 2 overhead = 894.698156 microseconds +/- 3383.627348
+
+--------------------------------------------------------
+Computing STATIC 4 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                933.578834   354.164653   1606.480032    448.638619      0
+
+STATIC 4 time     = 933.578834 microseconds +/- 879.331692
+STATIC 4 overhead = 482.133245 microseconds +/- 1524.560294
+
+--------------------------------------------------------
+Computing STATIC 8 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                934.145777   354.130752   1543.119736    345.594430      0
+
+STATIC 8 time     = 934.145777 microseconds +/- 677.365083
+STATIC 8 overhead = 482.700188 microseconds +/- 1322.593685
+
+--------------------------------------------------------
+Computing STATIC 16 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1037.069345   346.544012   4726.745002    1265.007221      0
+
+STATIC 16 time     = 1037.069345 microseconds +/- 2479.414152
+STATIC 16 overhead = 585.623756 microseconds +/- 3124.642754
+
+--------------------------------------------------------
+Computing STATIC 32 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                388.869746   301.078334   1243.654825    201.514864      1
+
+STATIC 32 time     = 388.869746 microseconds +/- 394.969133
+STATIC 32 overhead = -62.575843 microseconds +/- 1040.197735
+
+--------------------------------------------------------
+Computing STATIC 64 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                285.711959   209.370628   298.711285    22.315537      1
+
+STATIC 64 time     = 285.711959 microseconds +/- 43.738452
+STATIC 64 overhead = -165.733630 microseconds +/- 688.967054
+
+--------------------------------------------------------
+Computing STATIC 128 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                197.792919   179.306045   299.190357    31.933440      1
+
+STATIC 128 time     = 197.792919 microseconds +/- 62.589542
+STATIC 128 overhead = -253.652669 microseconds +/- 707.818144
+
+--------------------------------------------------------
+Computing DYNAMIC 1 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                189.035870   183.662586   199.374929    6.176484      0
+
+DYNAMIC 1 time     = 189.035870 microseconds +/- 12.105909
+DYNAMIC 1 overhead = -262.409719 microseconds +/- 657.334511
+
+--------------------------------------------------------
+Computing DYNAMIC 2 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                188.891655   181.783363   214.351527    11.632041      0
+
+DYNAMIC 2 time     = 188.891655 microseconds +/- 22.798801
+DYNAMIC 2 overhead = -262.553934 microseconds +/- 668.027403
+
+--------------------------------------------------------
+Computing DYNAMIC 4 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                190.885309   181.029737   204.899348    10.405660      0
+
+DYNAMIC 4 time     = 190.885309 microseconds +/- 20.395095
+DYNAMIC 4 overhead = -260.560280 microseconds +/- 665.623696
+
+--------------------------------------------------------
+Computing DYNAMIC 8 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                199.898994   181.151554   224.530324    10.398400      0
+
+DYNAMIC 8 time     = 199.898994 microseconds +/- 20.380864
+DYNAMIC 8 overhead = -251.546595 microseconds +/- 665.609466
+
+--------------------------------------------------------
+Computing DYNAMIC 16 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                203.696489   180.595182   233.619846    21.261248      0
+
+DYNAMIC 16 time     = 203.696489 microseconds +/- 41.672046
+DYNAMIC 16 overhead = -247.749100 microseconds +/- 686.900648
+
+--------------------------------------------------------
+Computing DYNAMIC 32 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                209.904453   180.806965   231.341459    20.339306      0
+
+DYNAMIC 32 time     = 209.904453 microseconds +/- 39.865039
+DYNAMIC 32 overhead = -241.541136 microseconds +/- 685.093641
+
+--------------------------------------------------------
+Computing DYNAMIC 64 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                242.776042   179.842301   295.969658    50.555160      0
+
+DYNAMIC 64 time     = 242.776042 microseconds +/- 99.088113
+DYNAMIC 64 overhead = -208.669547 microseconds +/- 744.316715
+
+--------------------------------------------------------
+Computing DYNAMIC 128 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                193.769587   179.343857   298.491307    35.247839      0
+
+DYNAMIC 128 time     = 193.769587 microseconds +/- 69.085765
+DYNAMIC 128 overhead = -257.676002 microseconds +/- 714.314367
+
+--------------------------------------------------------
+Computing GUIDED 1 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                192.664405   180.158019   218.500383    15.631317      0
+
+GUIDED 1 time     = 192.664405 microseconds +/- 30.637382
+GUIDED 1 overhead = -258.781184 microseconds +/- 675.865984
+
+--------------------------------------------------------
+Computing GUIDED 2 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                187.888183   181.233883   220.505521    13.437269      0
+
+GUIDED 2 time     = 187.888183 microseconds +/- 26.337047
+GUIDED 2 overhead = -263.557406 microseconds +/- 671.565649
+
+--------------------------------------------------------
+Computing GUIDED 4 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                185.800567   182.140991   198.744796    4.894783      0
+
+GUIDED 4 time     = 185.800567 microseconds +/- 9.593775
+GUIDED 4 overhead = -265.645022 microseconds +/- 654.822377
+
+--------------------------------------------------------
+Computing GUIDED 8 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                185.669577   183.859468   196.102075    2.965536      1
+
+GUIDED 8 time     = 185.669577 microseconds +/- 5.812450
+GUIDED 8 overhead = -265.776012 microseconds +/- 651.041052
+
+--------------------------------------------------------
+Computing GUIDED 16 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                213.948460   188.740343   267.895125    23.397084      0
+
+GUIDED 16 time     = 213.948460 microseconds +/- 45.858285
+GUIDED 16 overhead = -237.497129 microseconds +/- 691.086887
+
+--------------------------------------------------------
+Computing GUIDED 32 time using 20 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                204.020916   181.954168   240.014680    24.510672      0
+
+GUIDED 32 time     = 204.020916 microseconds +/- 48.040917
+GUIDED 32 overhead = -247.424673 microseconds +/- 693.269519

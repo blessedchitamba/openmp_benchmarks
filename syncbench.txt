@@ -1,0 +1,120 @@
+Running OpenMP benchmark version 3.0
+	4 thread(s)
+	20 outer repetitions
+	1000.00 test time (microseconds)
+	56 delay length (iterations) 
+	0.100000 delay time (microseconds)
+
+--------------------------------------------------------
+Computing reference time 1 time using 20480 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.076591   0.072264   0.109067    0.011323      0
+
+reference time 1 time     = 0.076591 microseconds +/- 0.022192
+
+--------------------------------------------------------
+Computing PARALLEL time using 2560 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1.488449   1.345426   1.766105    0.161395      0
+
+PARALLEL time     = 1.488449 microseconds +/- 0.316334
+PARALLEL overhead = 1.411858 microseconds +/- 0.338526
+
+--------------------------------------------------------
+Computing FOR time using 5120 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.498399   0.493955   0.506528    0.003622      0
+
+FOR time     = 0.498399 microseconds +/- 0.007099
+FOR overhead = 0.421807 microseconds +/- 0.029291
+
+--------------------------------------------------------
+Computing PARALLEL FOR time using 2560 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1.379791   1.321924   1.404442    0.022248      0
+
+PARALLEL FOR time     = 1.379791 microseconds +/- 0.043606
+PARALLEL FOR overhead = 1.303200 microseconds +/- 0.065798
+
+--------------------------------------------------------
+Computing BARRIER time using 5120 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.517509   0.492261   0.644191    0.042524      0
+
+BARRIER time     = 0.517509 microseconds +/- 0.083347
+BARRIER overhead = 0.440918 microseconds +/- 0.105540
+
+--------------------------------------------------------
+Computing SINGLE time using 5120 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.548757   0.518718   0.645870    0.040347      0
+
+SINGLE time     = 0.548757 microseconds +/- 0.079081
+SINGLE overhead = 0.472166 microseconds +/- 0.101273
+
+--------------------------------------------------------
+Computing CRITICAL time using 20480 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.175337   0.169562   0.183015    0.003322      0
+
+CRITICAL time     = 0.175337 microseconds +/- 0.006511
+CRITICAL overhead = 0.098746 microseconds +/- 0.028703
+
+--------------------------------------------------------
+Computing LOCK/UNLOCK time using 20480 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.194834   0.177442   0.214339    0.011773      0
+
+LOCK/UNLOCK time     = 0.194834 microseconds +/- 0.023075
+LOCK/UNLOCK overhead = 0.118243 microseconds +/- 0.045267
+
+--------------------------------------------------------
+Computing ORDERED time using 10240 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.247002   0.244728   0.258596    0.003224      1
+
+ORDERED time     = 0.247002 microseconds +/- 0.006320
+ORDERED overhead = 0.170411 microseconds +/- 0.028512
+
+--------------------------------------------------------
+Computing reference time 2 time using 1310720 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.002108   0.002089   0.002180    0.000029      0
+
+reference time 2 time     = 0.002108 microseconds +/- 0.000056
+
+--------------------------------------------------------
+Computing ATOMIC time using 81920 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.044201   0.041091   0.049946    0.002534      0
+
+ATOMIC time     = 0.044201 microseconds +/- 0.004967
+ATOMIC overhead = 0.042093 microseconds +/- 0.005023
+
+--------------------------------------------------------
+Computing reference time 3 time using 40960 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                0.072814   0.072263   0.074236    0.000548      0
+
+reference time 3 time     = 0.072814 microseconds +/- 0.001074
+
+--------------------------------------------------------
+Computing REDUCTION time using 2560 reps
+
+Sample_size       Average     Min         Max          S.D.          Outliers
+ 20                1.403720   1.337325   1.515784    0.046256      0
+
+REDUCTION time     = 1.403720 microseconds +/- 0.090662
+REDUCTION overhead = 1.330906 microseconds +/- 0.091736
